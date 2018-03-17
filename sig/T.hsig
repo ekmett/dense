@@ -1,0 +1,4 @@
+signature T where
+
+data T
+instance Num T
