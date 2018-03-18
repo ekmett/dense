@@ -1,0 +1,24 @@
+name:          dense-common
+category:      Math
+version:       0.0.1
+license:       BSD2
+cabal-version: 2
+author:        Edward A. Kmett
+maintainer:    Edward A. Kmett <ekmett@gmail.com>
+stability:     experimental
+homepage:      http://github.com/ekmett/dense/
+bug-reports:   http://github.com/ekmett/dense/issues
+copyright:     Copyright (C) 2017 Edward A. Kmett
+build-type:    Simple
+synopsis:      Unpacked math
+description:   Unpacked matrices
+
+source-repository head
+  type: git
+  location: git://github.com/ekmett/matrix.git
+
+library
+  default-language: Haskell2010
+  ghc-options: -Wall 
+  exposed-modules: Dense.Vector
+  build-depends: base, lens, linear

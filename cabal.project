@@ -1,2 +1,3 @@
 packages:
-  matrix.cabal
+  dense.cabal
+  lib/*/*.cabal
